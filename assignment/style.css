@@ -1,11 +1,80 @@
 /* Give your page a fun background color */
-
+body {
+  background:radial-gradient(circle at center, #6CDAE7, #1E90FF);
+  background-color: #1E90FF;
+  margin:0;
+}
 /* Make the header and footer a different color from the background */
-
+h1 {
+  background-color: #0000FF;
+  text-align: center;
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+footer {
+  background-color: #0000FF;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
-
+p {
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+}
 /* Put a border around your image */
+img{
+  border: 5px solid #0000FF;
+  margin: 25px;
+  text-align: center;
+}
 
 /* Change the font-family of your list */
+ul {
+  font-family: fantasy, monospace, sans-serif;
+  font-size: large;
+  text-align: center;
+  list-style-position: inside;
+  display:inline;
+  list-style-type: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+[alt="Watching movies"]{
+  height: auto;
+  width: auto;
+  max-width: 125px;
+  max-height: 125px;
+  margin: 3px;
+  border:2px solid #0000FF;
+  border-radius: 80%;
+}
+[alt="sports equipment"] {
+  height: auto;
+  width: auto;
+  max-width: 125px;
+  max-height: 125px;
+  margin: 3px;
+  border:2px solid #0000FF;
+  border-radius: 80%;
+}
+[alt="airplane"] {
+  height: auto;
+  width: auto;
+  max-width: 125px;
+  max-height: 125px;
+  margin: 3px;
+  border:2px solid #0000FF;
+  border-radius: 80%;
+}
